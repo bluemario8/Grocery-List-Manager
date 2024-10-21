@@ -7,22 +7,24 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  
+</div>
     <div class="CompleteList">
         <h2>Grocery List</h2>
         <p>Items needed:</p>
+        <div>
+            <select id="Dropdown" onchange="filterButtons()">
+                <option value="all"> Show all </option>
+                <option value="struck"> Show Purchased</option>
+                <option value="notstruck">Not Purchased</option>
+            </select>
+        </div>
         <div>
             <button class="strikeButton">Button 1</button>
             <button class="strikeButton">Button 2</button>
             <button class="strikeButton">Button 3</button>
         </div>
-        <div>
-            <select name="" id="Dropdown">
-                <option value="all"> Show all </option>
-                <option value="struck"> Show Purchased</option>
-                <option value="nonstruck">Not Purchased</option>
-            </select>
-        </div>
-    </div>
+      
 
     <script src="index.js"></script>
 </body>
