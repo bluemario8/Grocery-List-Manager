@@ -17,26 +17,20 @@
         <div class="add-item">
             <input type="text" placeholder="Grocery to add">
             <button onclick="addGrocery(this)">Add</button>
-            <select onchange="sort(this)" name="sort" id="sort">
-                <option value="all">All</option>
-                <option value="purchased">Purchased</option>
-                <option value="unpurchased">Unpurchased</option>
+            <select id="Dropdown" onchange="filterButtons()">
+                <option value="all"> Show all </option>
+                <option value="struck"> Show Purchased</option>
+                <option value="notstruck">Not Purchased</option>
             </select>
             <p>Items needed:</p>
         </div>
         <div class="list-items">
             <ul>
                 <li class="list-item">
-                    <button class="strikethroughButton" onclick="strike(this)">Button 1</button>
+                    <button class="strikeButton" onclick="strike(this)">Button 1</button>
                 </li>
             </ul> 
         </div>
-        <div>
-            <button class="strikeButton">Button 1</button>
-            <button class="strikeButton">Button 2</button>
-            <button class="strikeButton">Button 3</button>
-        </div>
-          
 
     <script src="index.js"></script>
 </body>

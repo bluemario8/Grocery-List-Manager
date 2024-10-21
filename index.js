@@ -5,7 +5,7 @@ function addGrocery(data) {
     let list = document.getElementsByClassName("list-items")[0].children[0];
     let elem = document.createElement("li");
     elem.className = "list-item"; 
-    elem.innerHTML = `<button class="strikethroughButton" onclick="strike(this)">${textInputValue}</button>`
+    elem.innerHTML = `<button class="strikeButton" onclick="strike(this)">${textInputValue}</button>`
     list.appendChild(elem);
 }
 
@@ -39,12 +39,15 @@ function filterButtons() {
         switch (filterValue) {
             case 'all':
                 button.style.display = 'inline-block'
+                button.parentElement.style.display = 'list-item'
                 break
             case 'struck':
                 button.style.display = button.style.textDecoration === 'line-through' ? 'inline-block' : 'none'
+                button.parentElement.style.display = button.style.textDecoration === 'line-through' ? 'list-item' : 'none'
                 break
             case 'notstruck':
                 button.style.display = button.style.textDecoration === '' ? 'inline-block' : 'none';
+                button.parentElement.style.display = button.style.textDecoration === '' ? 'list-item' : 'none';
                 break
         }
     })
