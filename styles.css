@@ -1,0 +1,8 @@
+.CompleteList {
+    border: 5px solid black;
+    width: 400px;
+}
+.strikethroughButton{
+ background-color: transparent;
+ border: transparent;
+}
