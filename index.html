@@ -14,14 +14,16 @@
     <div class="add-item">
         <input type="text" placeholder="Grocery to add">
         <button onclick="addGrocery(this)">Add</button>
+        <select onchange="sort(this)" name="sort" id="sort">
+            <option value="all">All</option>
+            <option value="purchased">Purchased</option>
+            <option value="unpurchased">Unpurchased</option>
+        </select>
     </div>
     <div class="list-items">
         <ul>
             <li class="list-item">
-                <span>Banana</span>
-            </li>
-            <li class="list-item">
-                <span>Milk</span>
+                <button onclick="strike()">Banana</button>
             </li>
         </ul> 
     </div>
