@@ -16,8 +16,9 @@ body{
   
 .CompleteList{
     border: 5px solid white;
-    width: 300px;
-    height:fit-content;
+    width: fit-content;
+    padding: 40px;
+    height: fit-content;
     float: inline-end;
     margin-right: 700px;
     font-size: 30px;
@@ -46,7 +47,7 @@ body{
      float: right;
 }
 .Grocerylist{
-    margin-right: 800px;
+    margin-right: 850px;
     float: right;
     padding: 0px;
     margin-top: 50px;
