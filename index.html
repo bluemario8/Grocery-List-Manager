@@ -20,8 +20,8 @@
         <h2>Items</h2>
         <div>
             <div class="add-item">
-                <input type="text" placeholder="Grocery to add">
-                <button onclick="addGrocery(this)">Add</button>
+                <input class="color" type="text" placeholder="Grocery to add">
+                <button class="color" onclick="addGrocery(this)">Add</button>
             <select id="Dropdown" onchange="filterButtons()">
                 <option class="color" value="all"> Show all </option>
                 <option class="color"  value="struck"> Show Purchased</option>
@@ -31,6 +31,9 @@
         </div>
         <div class="list-items">
             <ul>
+                <li class="list-item">
+                    <button class="strikeButton" onclick="strike(this)">Button 1</button>
+                </li>
             </ul> 
         </div>
 
