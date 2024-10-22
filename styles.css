@@ -1,8 +1,69 @@
+*{
+     color: black;
+    padding: 0px;
+}
+body{
+    background-image: url(181605.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bitter-uniquifier {
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
 .CompleteList{
-    border: 5px solid black;
+    border: 5px solid white;
     width: 300px;
+    height:fit-content;
+    float: inline-end;
+    margin-right: 700px;
+    font-size: 30px;
+    background-color: white;
+   
 }
 .strikeButton{
  background-color: transparent;
  border: transparent;
+}
+.text{
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: black;
+    
+}
+#picture{
+     width: 100px;
+     
+     display: flex;
+     justify-content: center;
+     margin-right: 700px;
+     margin-top: -80px;
+     float: right;
+}
+.Grocerylist{
+    margin-right: 800px;
+    float: right;
+    padding: 0px;
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+    border-bottom: 5px solid white;
+}
+#Dropdown{
+    color: black;
+    font-size: 25px;
+}
+.color{
+    color: black;
+    font-size: 25px;
+}
+.strikeButton{
+
+    color: black;
+    font-size: 25px;
 }
