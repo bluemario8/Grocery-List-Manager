@@ -14,24 +14,26 @@
         <h2 class="Grocerylist">Grocery List </h2>
         <img id="picture" src="images-removebg-preview.png" alt="">
     </div>
-    <div class="CompleteList">
-   
-        <div class="text">
-            <h2>Items</h2>
-            <div>
-                <div class="add-item">
-                    <input class="color" type="text" placeholder="Grocery to add">
-                    <button class="color" onclick="addGrocery(this)">Add</button>
-                    <select id="Dropdown" onchange="filterButtons()">
-                        <option class="color" value="all"> Show all </option>
-                        <option class="color"  value="struck"> Show Purchased</option>
-                        <option  class="color" value="notstruck">Not Purchased</option>
-                    </select>
-                    <p>Items needed:</p>
-                </div>
-                <div class="list-items">
-                    <ul>
-                    </ul> 
+    <div class="item">
+        <div class="CompleteList">
+    
+            <div class="text">
+                <h2>Items</h2>
+                <div>
+                    <div class="add-item">
+                        <input class="color" type="text" placeholder="Grocery to add">
+                        <button class="color" onclick="addGrocery(this)">Add</button>
+                        <select id="Dropdown" onchange="filterButtons()">
+                            <option class="color" value="all"> Show all </option>
+                            <option class="color"  value="struck"> Show Purchased</option>
+                            <option  class="color" value="notstruck">Not Purchased</option>
+                        </select>
+                        <p>Items needed:</p>
+                    </div>
+                    <div class="list-items">
+                        <ul>
+                        </ul> 
+                    </div>
                 </div>
             </div>
         </div>

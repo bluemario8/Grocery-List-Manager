@@ -17,15 +17,17 @@ body{
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-  }
-  
+}
+.item {
+    display: flex;
+    justify-content: center;
+}
 .CompleteList{
+    display: flex;
     border: 5px solid white;
     width: fit-content;
     padding: 40px;
     height: fit-content;
-    float: inline-end;
-    margin-right: 700px;
     font-size: 30px;
     background-color: white;
     border-radius: 10px;
@@ -41,6 +43,9 @@ body{
     font-style: normal;
     color: black;
     
+}
+.text h2 {
+    margin-left: 225px;
 }
 #picture{
      width: 100px;
